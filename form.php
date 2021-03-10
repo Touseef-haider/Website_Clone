@@ -1,6 +1,6 @@
 <?php
 
-echo 'Hello'
+// echo 'Hello'
 $server_name = "95.217.199.12";
 $username = "trulyfut_ppcuser";
 $password = ",^DB1QkJ=pGd";
@@ -15,18 +15,18 @@ if (!$conn) {
 }
 if (isset($_POST['submit'])) {
     $name = $_POST['Name'];
-    $email = $_POST['Email']
+    $email = $_POST['Email'];
     $number = $_POST['Number'];
-    $message = $_POST['Message']
-    $service = $_POST['Services']
-    $sql_query = "INSERT INTO contactForms (name,email,phNum,service,message) VALUES ('$name','$email','$number','$service','$message') "
+    $message = $_POST['Message'];
+    $service = $_POST['Services'];
+    $sql_query = "INSERT INTO contactForms (name,email,phNum,service,message) VALUES ('$name','$email','$number','$service','$message') ";
     if (mysqli_query($conn,$sql_query)) {
-        echo 'Inserted Successfully'
+        echo 'Inserted Successfully';
     }
     else{
-        echo 'Error:'
+        echo 'Error:';
     }
-    mysqli_close($conn)
+    mysqli_close($conn);
 }
 
 
