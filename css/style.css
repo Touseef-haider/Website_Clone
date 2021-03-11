@@ -6682,7 +6682,7 @@ section.top-banner {
 }
 .portfolioboxes .tab-custom .tabbing-links li.current, .portfolioboxes .tab-custom .tabbing-links li:hover {
     transition: all .2s ease-in-out;
-    background: linear-gradient(to right,#40b01d,#000000)
+    background: linear-gradient(to right,#40b01d,#000000);
 
     color: #ffffff;
     border: 1px solid;
@@ -7195,7 +7195,7 @@ form.cmxform .gray * { color: gray; }
 .banner-form .intl-tel-input{width: 100%;}
 .banner-form h3 {color: #4f4f4f;font-size: 24px;margin: 0 30px;font-weight: 700;display: inline-block;text-align: center;}
 .banner-form h3 strong {font-weight: 600;font-size:25px;}
-.ban-form input[type="submit"]{color: #ffffff;font-weight: 700;border-radius: 3px;text-align: center;padding: 0;margin: 0px 0 0;background: linear-gradient(to right,#40b01d,#000000)
+.ban-form input[type="submit"]{color: #ffffff;font-weight: 700;border-radius: 3px;text-align: center;padding: 0;margin: 0px 0 0;background: linear-gradient(to right,#40b01d,#000000);
 cursor: pointer;height: 35px;font-size: 16px;border: 0;}
 .ban-form textarea{width: 100%;height: 60px;border: 1px solid #d2d2d2;background: #f2f1ef;padding: 10px 15px;color: gray;font-size: 11px;border-radius: 4px;box-shadow: 0px 5px 11px 0px rgba(207, 207, 207, 0.39);font-weight: 400;outline: none !important;margin: 0 0 0px 0;resize: none;}
 .ban-formset.inpchecbx label{display: inline-block;margin: 0;line-height: 1.4;color: #676767;font-size: 13px;}
@@ -7664,12 +7664,12 @@ footer .copyright #year{color:#fff;font-size:13px}
 .btns_wrap a:hover{text-decoration: none!important;left: -56px;}
 .btns_wrap .call_wrap{width: 283px;position: absolute;right: 0;background-color:linear-gradient(to right,#40b01d,#000000);top: 60px;border-radius: 0 50px 50px 0;overflow: hidden;box-shadow: 0px 0px 40px #00000026 !important;-webkit-transition: all 0.3s ease;-moz-transition: all 0.3s ease;-ms-transition: all 0.3s ease;-o-transition: all 0.3s ease;transition: all 0.3s ease;}
 
-.btns_wrap .call_wrap span{color:#40b01d;font-size: 20px;vertical-align: middle;background-color:linear-gradient(to right,#40b01d,#000000);padding: 15px 20px 15px 15px;transform: rotate(-361deg);border-right: 1px solid #ded9d9;}
+.btns_wrap .call_wrap span{color:#40b01d;font-size: 20px;vertical-align: middle;background-color:white;padding: 15px 20px 15px 15px;transform: rotate(-361deg);border-right: 1px solid #ded9d9;}
 .btns_wrap .chat_wrap{display: block;position: absolute;right: 2px;width: 234px;background-color:linear-gradient(to right,#40b01d,#000000);top: 0;border-radius: 0px;overflow: hidden;box-shadow: 0px 0px 40px #00000026 !important;-webkit-transition: all 0.3s ease;-moz-transition: all 0.3s ease;-ms-transition: all 0.3s ease;-o-transition: all 0.3s ease;transition: all 0.3s ease;border-radius: 0 50px 50px 0px;}
 .btns_wrap .chat_wrap span.icoo,
 .btns_wrap .call_wrap span.icoo{color: #40b01d;/* background-color:linear-gradient(to right,#40b01d,#000000); */font-size: 18px;padding: 15px 20px;border-left: 1px solid #ded9d9;vertical-align: middle;display: inline-block;border-radius: 0 50px 50px 0;border-right: 0;}
 .icon-phone2:before{color:#40b01d;}
-.btns_wrap .chat_wrap span{color: #40b01d;font-size: 20px;vertical-align: middle;background-color:linear-gradient(to right,#40b01d,#000000);padding: 15px 30px 15px 15px;}
+.btns_wrap .chat_wrap span{color: #40b01d;font-size: 20px;vertical-align: middle;background-color:white;padding: 15px 30px 15px 15px;}
 
 .port-new {background: #fff8e3;background: url(../images/home-pricing-section.jpg) repeat 0 0 transparent;}
 .port-new ul{}
@@ -8307,7 +8307,7 @@ li.port .overlay{
     width: 0;
     height: 97%;
     transition: .5s ease;
-    /* opacity:0.5; */
+    opacity:0.5;
     top: 0;
 }
 
