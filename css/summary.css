@@ -1,0 +1,23 @@
+.bnr-inpfild input[type="submit"] {
+    border: 1px solid #f7f7f7;
+    cursor: pointer;
+}
+
+.contactwrp .form-box-main form input[type="submit"] {
+    background: linear-gradient(to right,#40b01d,#000000);
+    border-radius: 8px;
+}
+
+
+.btns_wrap .chat_wrap span {
+    background-color: white;
+}
+
+.btns_wrap .call_wrap {
+    background-color: white;
+}
+
+
+.mypopup-wrap .mypopup .left {
+    background: none;
+}
