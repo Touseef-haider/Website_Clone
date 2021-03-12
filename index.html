@@ -278,13 +278,8 @@
         </div>
       </header>
 
-
-
-
-
-
       <div class="home-slider homewrp slick-initialized slick-slider">
-        <div
+        <!-- <div
           aria-live="polite"
           class="slick-list draggable"
           style="height: 600px"
@@ -348,6 +343,7 @@
                       />
                     </div>
                   </div>
+                  
                 </div>
               </div>
             </div>
@@ -367,7 +363,7 @@
               tabindex="-1"
               role="option"
               aria-describedby="slick-slide21"
-            >
+            > -->
               <div class="container">
                 <!-- <div class="fancy-top-bubbles">
       <img class="fancy-top-bubbles b1" src="assets/images/banner/cinema.png">
@@ -380,15 +376,16 @@
       <img class="fancy-top-bubbles b8" src="assets/images/banner/shield.png">
     </div> -->
 
-                <div class="row">
-                  <div class="col-lg-6">
+                <div style="margin-top: 60px;" class="row ">
+                  <div class="col-md-6">
                     <div class="home-content  ml-5">
-                      <h1 id="headline " class=" heading black-clr">
+                      <!-- there was a class heading on h1 below  -->
+                      <h1 id="headline " class="  black-clr">
                         Do you need a logo or Website?<br/>
                       </h1>
                       <span>  Truly Future is an enterprise web and digital marketing agency that has carved a niche for itself by offering innovative, logical, and highly responsive web and IT solutions<br/>
                       </span>
-                      <h4 id="subline" class="subhead black-clr">
+                      <h4 id="subline" class="text-leftsubhead black-clr">
                         We have a legacy of designing, developing, and marking a brand<br/>
                         Our services start from $199
                       </h4>
@@ -413,6 +410,65 @@
                       />
                     </div>
                   </div>
+                  <div class="col-md-6 mt-5">
+                      <div class="card bg-dark">
+                   
+                      <form method="post" class="text-muted" action="./form.php">
+                        <div class="row">
+                        <div class="col-md-6">
+                        <div class="bnr-inpfild">
+                        <input type="text" name="Name" placeholder="Enter Your Name*" class="required" required="">
+                        </div>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="bnr-inpfild">
+                        <input type="email" name="Email" placeholder="Enter Your Email*" class="required" required="">
+                        </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                        <div class="bnr-inpfild brn-numberfild">
+                        <input id="phone-coun" maxlength="10" minlength="10" autocomplete="off" type="text" onkeypress="return ((event.charCode >= 48 && event.charCode <= 57) )" name="Number" class="number required" placeholder="Enter Your Phone*" required/>
+                        </div>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="bnr-inpfild">
+                        <select name="Services" id="services"  class="bg-dark valid safari_only" aria-invalid="false" >
+                        <option class="bg-dark" value="" pack="0">Select Service</option>
+                        <option class="bg-dark" value="Website Design">Website Design</option>
+                        <option class="bg-dark" value="E-commerce Solutions">E-commerce Solutions</option>
+                        <option class="bg-dark" value="Logo Design">Logo Design</option>
+                        <option class="bg-dark" value="Website Automation">Website Automation</option>
+                        <option class="bg-dark" value="Mobile App Development">Mobile App Development</option>
+                        <option class="bg-dark" value="Video Animation">Video Animation</option>
+                        <option class="bg-dark" value="Search Engine Optimization">Search Engine Optimization</option>
+                        <option class="bg-dark" value="Social Media Marketing">Social Media Marketing</option>
+                        <option class="bg-dark" value="PPC">PPC</option>
+                        </select>
+                        </div>
+                        </div>
+                        
+                        <div class="col-md-12">
+                        <div class="bnr-inpfild">
+                        <textarea name="Message" placeholder="Enter Your Message"></textarea>
+                        </div>
+                        </div>
+                        <div class="col-lg-12">
+                        <div class="bnr-inpfild">
+                        <input type="submit" name="submit" style="background-color: grey;" value="Let's get Started">
+                        <input type="hidden" name="ctry" value="Pakistan Pakistan ">
+                        <input type="hidden" name="pc" value="+92+92">
+                        <input type="hidden" name="cip" value="110.93.236.174">
+                        <input type="hidden" name="hiddencapcha" value="">
+                        <input type="hidden" id="b-location" name="locationURL" value="" />
+                        <script type="text/javascript"> document.getElementById('b-location').value = window.location.href; </script>
+                        </div>
+                        </div>
+                        </div>
+                        </form> 
+                      </div>
+                  </div>
+                
                 </div>
               </div>
             </div>
@@ -420,7 +476,7 @@
               class="services-sec-banner homepg slick-slide"
               style="
                 background: url('images/banner-3.png');
-                width: 800px;
+                /* width: 800px; */
                 position: relative;
                 left: -1600px;
                 top: 0px;
