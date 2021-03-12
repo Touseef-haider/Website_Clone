@@ -1709,6 +1709,9 @@ button, select{ z-index:0; }
   .w-commerce-commercecheckoutemailinput {
     font-size: 16px;
   }
+  .mobile-nav-btn {
+    top: 36px !important;
+}
   .w-commerce-commercecheckoutshippingfullname {
     font-size: 16px;
   }
@@ -1997,7 +2000,7 @@ a {
 }
 
 .button.white-centered {
-  background: linear-gradient(to right,#40b01d,#000000)
+  background: linear-gradient(to right,#40b01d,#000000);
 
   box-shadow: 0 13px 0 -4px rgb(214 214 214 / 19%);
   color: #ffffff;
@@ -2807,6 +2810,7 @@ ul.w-list-unstyled li a {
   padding-right: 0;
   font-size: 16px;
   font-weight: 500;
+  text-align: justify;
 }
 
 .column-9 {
@@ -7343,11 +7347,11 @@ header .logo a{
     font-size: 30px;
     text-decoration: none;
     display: block;
-    margin-top: 15px;
+    /* margin-top: 15px; */
     color: #40b01d;
     font-weight: 700;
 }
-header .logo img {width: 90%;/* display: table; *//* margin: auto; */}
+header .logo img { float : left;/* display: table; *//* margin: auto; */}
 header .menu {margin: 0px 0;padding: 0;text-align: center;}
 header .menu ul {margin: 0;padding: 0px 0 0;text-align: left;}
 header .menu ul li {display: inline-block;margin-right: 10px;padding: 5px 0;font-weight: 700;}
@@ -7536,6 +7540,7 @@ footer .w-inline-block{color: #fff;
     margin-bottom: 30px;}
 
 
+
 /*exit popup*/
 
 .ys-layer {
@@ -7553,6 +7558,7 @@ footer .w-inline-block{color: #fff;
     position: fixed;
     z-index: 9999;
     min-height: auto;
+    padding: 20px 0px;
     top: 0;
     width: 100%;
     background: #fff;
